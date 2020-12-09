@@ -46,7 +46,6 @@ class Interpreter:
 
 def getInterpreter():
     interpreter = Interpreter()
-    assert len(interpreter.linesHit) == 0
     opMap = {
         'acc': interpreter.add,
         'jmp': interpreter.jmp,
